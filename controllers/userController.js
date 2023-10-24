@@ -1,6 +1,6 @@
 const User =  require('../models/UserModel.js')
 exports.home = (req, res) => {
-    console.log("Hello World!");
+    console.log("Hello World!")
 }
 exports.createUser = async(req, res) => {
     try{

@@ -1,4 +1,4 @@
-const express = require ("express")
+const express = require ("express");
 
 const {home, createUser, getUsers, deleteUser, updateUser} = require("../controllers/userController.js")
 

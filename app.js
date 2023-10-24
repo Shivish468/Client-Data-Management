@@ -13,7 +13,7 @@ app.use(cors())
 
 // init connect to db
 connectToDb();
-const userRoutes = require('./routes/userRoutes.js') 
+const userRoutes = require('./routes/userRoutes.js');
 
 app.use('/', userRoutes);
 
